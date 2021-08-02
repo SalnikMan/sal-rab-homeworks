@@ -33,7 +33,7 @@ let sum=product.price * product.count;
     // 7. Присвойте переменной itemCountText результат склеивания itemCountText и sum
 //itemCountText=itemCountText+sum;
     // 8. Присвойте переменной itemCountText результат склеивания itemCountText и ` ₽`
-itemCountText=product.count + ' x ' + product.price + ' ₽ = ' + sum + ' ₽';
+itemCountText=product.count + ' × ' + product.price + ' ₽ = ' + sum + ' ₽';
     // Конец решения задания №3.1.
 
     return `<div class="cart-item"><div>${product.title}</div><div>${itemCountText}</div></div>`;
