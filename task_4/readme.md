@@ -14,7 +14,7 @@
 JSON.parse(json)
 3. Создайте переменную products
 4. Присвойте products значение свойства data.products 
-5. Верните с помощью return  как результат функции parseProducts 
+5. Верните с помощью return как результат функции parseProducts 
 переменную products
 
 Создайте функцию renderProductsCards(json). 
